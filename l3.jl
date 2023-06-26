@@ -151,4 +151,4 @@ t=find_T(n,m,p)
 schedule = schedule_jobs(n, m, p, t)
 fixed_sch=fix_schedule(n,m,p,schedule)
 time_sch=time_schedule(n,m,p,fixed_sch)
-println("Funkcja celu: ",time_sch)
+println("Funkcja celu: ",time_sch)#
